@@ -17,7 +17,7 @@ const Footer = () => {
             <Link to="/" className="hover:text-white transition-all">Asosiy</Link>
           </li>
           <li>
-            <Link to="/cars" className="hover:text-white transition-all">Avtomobillar</Link>
+            <Link to="/admin/cars" className="hover:text-white transition-all">Avtomobillar</Link>
           </li>
           <li>
             <Link to="/about" className="hover:text-white transition-all">Biz haqimizda</Link>
