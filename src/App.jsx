@@ -15,6 +15,7 @@ import Analytics from "./pages/admin/Analytics";
 import Settings from "./pages/admin/Settings";
 import Notification from "./pages/admin/Notification";
 import Home from "./pages/home/Home";
+import Notfound from "./pages/not-found/Notfound";
 
 function App() {
   return (
@@ -35,7 +36,10 @@ function App() {
         <Route path="analytics" element={<Analytics />} />
         <Route path="settings" element={<Settings />} />
         <Route path="notification" element={<Notification />} />
+        <Route path="*" element={<Notfound />} />
       </Route>
+
+      <Route path="*" element={<Notfound />} />
     </Routes>
   );
 }
