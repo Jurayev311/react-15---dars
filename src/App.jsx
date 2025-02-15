@@ -14,11 +14,13 @@ import Reports from "./pages/admin/Reports";
 import Analytics from "./pages/admin/Analytics";
 import Settings from "./pages/admin/Settings";
 import Notification from "./pages/admin/Notification";
+import Home from "./pages/home/Home";
 
 function App() {
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
+        <Route path="/" element={<Home />} />
         <Route path="about" element={<Hero />} />
       </Route>
       
