@@ -3,7 +3,10 @@ import { Link, NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
-    <header id="header" className="bg-gradient-to-r from-gray-900 to-gray-950 text-white p-5 shadow-md">
+    <header
+      id="header"
+      className="bg-gradient-to-r from-gray-900 to-gray-950 text-white p-5 shadow-md"
+    >
       <nav className="container mx-auto flex justify-between items-center">
         <div>
           <Link to="/" className="text-3xl font-extrabold tracking-wide">

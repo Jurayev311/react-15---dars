@@ -37,7 +37,7 @@
                 <p className="text-sm">Turlar</p>
               </div>
               <div className="text-center">
-                <h3 className="text-3xl font-bold text-white"><CountUp start={0} end={24} duration={3} />/7</h3>
+                <h3 className="text-3xl font-bold text-white"><CountUp start={0} end={24} duration={3} />/<CountUp start={0} end={7} duration={3} /></h3>
                 <p className="text-sm">Xizmat</p>
               </div>
             </div>
