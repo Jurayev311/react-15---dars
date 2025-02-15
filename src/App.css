@@ -1,3 +1,8 @@
 #header .active {
     color: dodgerblue;
 }
+
+#admin-sidebar .active {
+    background-color: rgb(48, 151, 255);
+    border-radius: 5px;
+}
