@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Layout from "./pages/layout/Layout";
-import Hero from "./components/hero/hero";
+import Hero from "./components/hero/Hero";
 import Admin from "./pages/admin/Admin";
 import Cars from "./pages/admin/Cars";
 import Createcar from "./pages/admin/Createcar";
