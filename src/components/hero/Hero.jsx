@@ -1,9 +1,14 @@
-  import React from "react";
+  import React, { useEffect } from "react";
   import cars from "../../assets/image.png";
   import CountUp from "react-countup";
 import { Link } from "react-router-dom";
 
   const Hero = () => {
+    
+    useEffect(() => {
+      window.scrollTo({ behavior: "smooth", left: 0, top: 0 })
+    }, [])
+
     return (
       <section className="relative w-full min-h-screen bg-gradient-to-r from-gray-900 to-black text-white py-20 px-6 md:px-12 flex flex-col md:flex-row items-center justify-center gap-10">
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 to-transparent"></div>
