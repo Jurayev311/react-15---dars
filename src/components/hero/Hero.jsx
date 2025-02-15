@@ -25,12 +25,12 @@ import { Link } from "react-router-dom";
             </p>
 
             <div className="mt-6 flex gap-4 justify-center md:justify-start">
-              <button className="bg-blue-600 text-white px-6 py-3 rounded-lg shadow-lg font-semibold hover:bg-blue-700 transition-all">
+              <button className="cursor-pointer bg-blue-600 text-white px-6 py-3 rounded-lg shadow-lg font-semibold hover:bg-blue-700 transition-all">
                 Batafsil ma'lumot
               </button>
               <div>
               <Link to={'/admin/cars'}>
-              <button className="bg-gray-700 text-white px-6 py-3 rounded-lg shadow-lg font-semibold hover:bg-gray-600 transition-all">
+              <button className="cursor-pointer bg-gray-700 text-white px-6 py-3 rounded-lg shadow-lg font-semibold hover:bg-gray-600 transition-all">
                 Avtomobillarni ko'rish
               </button>
               </Link>

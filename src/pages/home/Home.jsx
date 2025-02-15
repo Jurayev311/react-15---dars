@@ -4,9 +4,7 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div className="relative min-h-screen bg-gradient-to-r from-gray-900 to-black text-white">
-      {/* Header sahifaning tepasida turishi uchun */}
 
-      {/* Sahifa mazmuni */}
       <div className="flex items-center justify-center h-[90vh] relative z-10">
         <div className="text-center animate-fadeIn">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 animate-slideIn">
