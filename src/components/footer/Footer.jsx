@@ -23,7 +23,7 @@ const Footer = () => {
             <Link to="/about" className="hover:text-white transition-all">Biz haqimizda</Link>
           </li>
           <li>
-            <Link to="/" className="hover:text-white transition-all">Bog‘lanish</Link>
+            <Link to="/contact" className="hover:text-white transition-all">Bog‘lanish</Link>
           </li>
         </ul>
 
