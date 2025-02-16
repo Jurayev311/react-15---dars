@@ -14,7 +14,7 @@ const Home = () => {
             Admin panelga kirish uchun pastdagi tugmani bosing.
           </p>
           <Link
-            to="/admin"
+            to="/admin/cars"
             className="px-8 py-4 bg-blue-600 text-white text-lg font-semibold rounded-lg shadow-lg transition-all duration-300 transform hover:scale-110 hover:bg-blue-700"
           >
             Admin Sahifaga O‘tish 🚀
