@@ -5,7 +5,7 @@ import {SIDEBARLINKS} from '../../static'
 const Admin = () => {
   return (
     <div id='admin-sidebar' className="flex">
-      <div className="w-80 bg-sky-950 text-white p-6 flex flex-col">
+      <div className="w-80 h-screen sticky top-0 left-0 bg-sky-950 text-white p-6 flex flex-col">
         <p className="text-2xl font-bold">Admin Dashboard</p>
         <ul className="my-6 flex-1">
           {
