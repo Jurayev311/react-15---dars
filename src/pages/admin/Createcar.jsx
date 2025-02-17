@@ -35,9 +35,9 @@ const CreateCar = () => {
   }
 
   return (
-    <div className="max-w-lg mx-auto bg-white shadow-lg rounded-2xl p-6 mt-5 border border-gray-200 max-h-[490px]">
+    <div className="max-w-lg mx-auto w-[450px] bg-white shadow-lg rounded-2xl p-6 mt-5 border border-gray-200 max-h-[490px]">
       <h2 className="text-3xl font-semibold text-gray-800 text-center mb-5">
-        Yangi Mashina Qo‘shish
+        Create car
       </h2>
       <form onSubmit={handleCreateCar} className="flex flex-col gap-4">
         <input
